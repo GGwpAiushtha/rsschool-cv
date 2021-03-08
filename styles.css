@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header,
+.personal_info_skills,
+.projects,
+.education_languages {
+  display: flex;
+}
+
+.header_name, 
+.personal_info_about_me,
+.code_examples,
+.education {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border-right: 2px solid #000;
+  padding-right: 8px;
+}
+
+.header_contacts,
+.personal_info_my_skills,
+.my_projects,
+.languages {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
+
+.header_name_title {
+  font-size: 36px;
+  margin: 0;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.header_name_subtitle {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 4px;
+}
+
+.header_block {
+  font-size: 28px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.cv_footer {
+  margin-top: 16px;
+}
