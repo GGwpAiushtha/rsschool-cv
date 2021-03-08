@@ -3,3 +3,35 @@
 *::after {
   box-sizing: border-box;
 }
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header,
+.personal_info_skills,
+.projects,
+.education_languages {
+  display: flex;
+}
+
+.header_name, 
+.personal_info_about_me,
+.code_examples,
+.education {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border-right: 2px solid #000;
+  padding-right: 8px;
+}
+
+.header_contacts,
+.personal_info_my_skills,
+.my_projects,
+.languages {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
